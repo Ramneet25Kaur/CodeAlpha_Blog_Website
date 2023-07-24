@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact Me</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="css/materialize.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/materialize.js"></script>
+    <script src="https://kit.fontawesome.com/9fcf906e35.js" crossorigin="anonymous"></script>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+	<nav class="white">
+    <div class="nav-wrapper container">
+      <a href="#!" class="brand-logo black-text">Bl<span class="material-icons black-text">public</span>gger</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><span class="material-icons black-text side-icon">public</span></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="blog.html" class="black-text">HOME</a></li>
+        <li><a href="about.html" class="black-text">ABOUT</a></li>
+        <li><a href="contact.html" class="black-text">CONTACT</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <a href="contact.html" class="close"><i class="material-icons black-text">clear</i></a>
+    <br>
+    <li><a href="blog.html">HOME</a></li>
+    <li><a href="about.html">ABOUT</a></li>
+    <li><a href="contact.html">CONTACT</a></li>
+  </ul>
+
+  <div class="row">
+    <div class="col s12 m6 l6 box">
+      <img src="img/c.jpg">
+    </div>
+
+    <div class="col s12 m6 l6 box1">
+     <h2 class="center">CONTACT US</h2>
+     <form>
+     <label class="size">Full Name</label>
+     <input type="text" class="ip-text" placeholder="Full Name"><br>
+     <label class="size">Email</label>
+     <input type="email" class="ip-text" placeholder="Email">
+     <button class="btn">Submit</button>
+  </form>
+
+  <i class="fa fa-info white-text icon"></i>
+  <i class="fa fa-envelope white-text icon"></i>
+  <i class="fa fa-facebook-f white-text icon"></i>
+  <i class="fa fa-instagram white-text icon"></i>
+  </div>
+  
+
+  
+
+  <script type="text/javascript">
+  	 $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+</script>
+
+</body>
+</html>
